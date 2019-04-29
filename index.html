@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>smoothie-delight</title>
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" value="Page about smoothies">
+    <meta name="Description" content="Page about smoothies."/>
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Page about smoothies" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://page-smoothies.com/" />
+    <!-- <meta property="og:image" content="/src/assets/screen-shot.png'" /> -->
+    <meta property="og:description" content="Page about smoothies." />
+    <!-- Mobile header color for Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4f7b77">
+    <!-- Mobile header color Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4f7b77">
+    <!-- Mobile header color for iOS Safari (supports black, black-translucent or default) -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="header__title">SMOOTHIE DELIGHT</h1>
+        <h2 class="header__subtitle">Healthy and delicious</h2>
+    </header>
+
+    <main>
+        <section class="section__about">
+            <h2>Every smoothie is an experience. Make it count!</h2>
+            <img class="section__about--img" src="<%= require('./src/assets/64671.jpg') %>" alt="Vector illustration with fit people">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quam facilis placeat vero quibusdam obcaecati! Officiis mollitia eius, nam laborum vel explicabo voluptates ex optio, ea odit sint at facilis.</p>
+        </section>
+
+        <section>
+            <h2>What are the benefits of our product?</h2>
+            <article class="main__advantage--wrap">
+                <span class="main__advantage">lose weight</span>
+                <span class="main__advantage">add muscle</span>
+                <span class="main__advantage">stay alert</span>
+            </article>
+        </section>
+
+        <section>
+            <h2>Sign up for our mailng list to get updates:</h2>
+            <form action="" class="form__newsletter">
+                <input class="inp__newsletter" type="text" placeholder="Name" name="name" required>
+                <input class="inp__newsletter" type="text" placeholder="Email address" name="email" required>
+                <button class="btn">Sign up</button>
+            </form>
+        </section>
+    </main>
+
+
+
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-101423651-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-101423651-2');
+    </script>
+</body>
+</html>

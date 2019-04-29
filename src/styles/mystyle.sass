@@ -1,0 +1,92 @@
+$green: #4f7b77
+
+html, body
+	height: 100%
+
+body
+	min-height: 100%
+	font
+
+header 
+	
+	background-image: url('../assets/hero-img.jpg')
+	background-size: cover
+	min-height: 100vh
+	background-position: center
+	display: flex
+	justify-content: start
+	align-items: center
+	flex-direction: column
+	border: 35px solid $green
+	@media screen and (max-width: 768px)
+		border-width: 15px
+.header__title
+	color: #fff
+	font-size: 8em
+	letter-spacing: 0.2em
+	@media screen and (max-width: 768px)
+		font-size: 3.5em
+
+.header__subtitle
+	color: #fff
+	font-size: 3em
+main 
+	border: 35px solid $green
+	@media screen and (max-width: 768px)
+		border-width: 15px
+section
+	max-width: 700px
+	margin: 150px auto
+	@media screen and (max-width: 768px)
+		margin: 0 10px
+
+.section__about--img
+	width: 100%
+	max-width: 700px
+.main__advantage--wrap
+	display: flex
+	justify-content: space-evenly
+	align-items: center
+	@media screen and (max-width: 768px)
+		flex-direction: column
+
+.main__advantage
+	background-color: $green
+	width: 150px
+	height: 150px
+	display: block
+	border-radius: 50%
+	color: #fff
+	display: flex
+	align-items: center
+	justify-content: center
+	font-weight: bold
+	margin: 20px
+.form__newsletter
+	
+
+.inp__newsletter
+	border-radius: 500px
+	border: 2px solid $green
+	padding: 10px
+	transition: all 0.30s ease-in-out
+	@media screen and (max-width: 768px)
+		display: block
+		margin: 10px auto
+	&:focus
+		outline: none
+		box-shadow: 0 0 5px rgba(79, 123, 119, 1)
+		background-color: rgba(79, 123, 119, .2)
+	
+
+.btn
+	margin-left: 20px
+	background-color: $green
+	border: 2px solid transparent
+	@media screen and (max-width: 768px)
+		margin-left: 0
+		margin-bottom: 20px
+	&:hover
+		color: $green
+		border: 2px solid $green
+

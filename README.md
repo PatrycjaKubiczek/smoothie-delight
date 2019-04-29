@@ -38,7 +38,7 @@ To preview the production build
 npm run preview
 ```
 
-##The projects features:
+## The projects features:
 * Sass
 * ES6
 * Asset loading
